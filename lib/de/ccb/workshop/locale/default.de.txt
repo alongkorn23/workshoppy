@@ -1,0 +1,341 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE de
+
+---STRING workshop
+Workshop
+---STRINGEND
+
+---STRING create workshop
+Workshop erstellen
+---STRINGEND
+
+---STRING lists of workshops
+Workshop-Liste
+---STRINGEND
+
+---STRING workshop %s
+Workshop "%s"
+---STRINGEND
+
+---STRING preferences
+Benutzereinstellungen
+---STRINGEND
+
+---STRING participants
+Teilnehmer
+---STRINGEND
+
+---STRING question
+Frage
+---STRINGEND
+
+---STRING workshop data
+WS-Data
+---STRINGEND
+
+---STRING session list
+Session-Liste
+---STRINGEND
+
+---STRING session start
+Session start
+---STRINGEND
+
+---STRING workshop controls
+WS-Controller
+---STRINGEND
+
+---STRING show workshop participants %s
+Teilnehmer zu Workshop "%s"
+---STRINGEND
+
+---STRING workshop %s delete
+Workshop "%s" löschen
+---STRINGEND
+
+---STRING delete
+Löschen
+---STRINGEND
+
+---STRING results
+Ergebnisse 
+---STRINGEND
+
+---STRING sessions data %s
+Session "%s" 
+---STRINGEND
+
+---STRING this session
+Diese Session 
+---STRINGEND
+
+---STRING agenda nav
+Agenda 
+---STRINGEND
+
+---STRING start workshop
+Workshop starten 
+---STRINGEND
+
+---STRING client button
+Client 
+---STRINGEND
+
+---STRING presentation button
+Präsentation 
+---STRINGEND
+
+---STRING exit button
+Beenden 
+---STRINGEND
+
+---STRING start session
+Session starten 
+---STRINGEND
+
+---STRING stop input
+Eingabe beenden
+---STRINGEND
+
+---STRING please wait
+Bitte warten
+---STRINGEND
+
+---STRING username
+Username
+---STRINGEND
+
+---STRING save
+Speichern
+---STRINGEND
+
+---STRING submit
+Abschicken
+---STRINGEND
+
+---STRING profile nav
+Profil 
+---STRINGEND
+
+---STRING participants nav
+Teilnehmer 
+---STRINGEND
+
+---STRING workshoppy nav
+Workshoppy
+---STRINGEND
+
+---STRING information page
+Informationsseite für ausgewählten Workshop
+---STRINGEND
+
+---STRING participants page
+Teilnehmerseite für ausgewählten Workshop
+---STRINGEND
+
+---STRING contacts
+Kontakt
+---STRINGEND
+
+---STRING imprint
+Impressum
+---STRINGEND
+
+---STRING term of use
+Nutzungsbedingungen
+---STRINGEND
+
+---STRING privacy statement
+Datenschutzerklärung
+---STRINGEND
+
+---STRING help
+Hilfe
+---STRINGEND
+
+---STRING enter your name
+Dein Name...
+---STRINGEND
+
+---STRING enter your message
+Bitte gib deine Antwort ein...
+---STRINGEND
+
+---STRING copyright
+CONTENT CONTROL ©2019
+---STRINGEND
+
+---STRING log out
+Ausloggen
+---STRINGEND
+
+---STRING log in
+Einloggen
+---STRINGEND
+
+---STRING session
+Session
+---STRINGEND
+
+---STRING connection unreachable
+Keine Verbindung zu WebSockets!
+---STRINGEND
+
+---STRING qrcode to client url
+Scannen Sie diesen Code, um am Workshop teilzunehmen.
+---STRINGEND
+
+---STRING enter an email address
+Email-Adresse eingeben
+---STRINGEND
+
+---STRING qrcode show
+QR-Code anzeigen
+---STRINGEND
+
+---STRING qrcode hide
+QR-Code ausblenden
+---STRINGEND
+
+---STRING invite link was sent successfully
+Die Einladungsmail wurde erfolgreich gesendet 
+---STRINGEND
+
+---STRING invite link to client screen %s
+Einladungsmail zur Teilnahme am Workshop "%s"
+---STRINGEND
+
+---STRING please enter your name
+Geben Sie Ihren Namen ein
+---STRINGEND
+
+---STRING welcome to workshoppy
+Willkommen bei Workshoppy
+---STRINGEND
+
+---STRING create a new category
+Kategorie erstellen
+---STRINGEND
+
+---STRING category title
+Kategorie-Titel
+---STRINGEND
+
+---STRING this category was successfully deleted
+Diese Kategorie wurde erfolgreich gelöscht
+---STRINGEND
+
+---STRING categories
+Kategorien
+---STRINGEND
+
+---STRING select category
+Kategorie auswählen:
+---STRINGEND
+
+---STRING unsorted
+Unsortiert
+---STRINGEND
+
+---STRING show result button
+Ergebnisse
+---STRINGEND
+
+---STRING results about the workshop %s
+Ergebnisse zum Workshop "%s"
+---STRINGEND
+
+---STRING text
+Text
+---STRINGEND
+
+---STRING category
+Kategorie
+---STRINGEND
+
+---STRING unsorted category
+Unsortiert
+---STRINGEND
+
+---STRING no data available yet
+Es liegen noch keine Daten vor
+---STRINGEND
+
+---STRING download as pdf file
+Als PDF-Datei herunterladen
+---STRINGEND
+
+---STRING results about the workshop %s.pdf
+Ergebnisse zum Workshop "%s".pdf
+---STRINGEND
+
+---STRING no sessions helptext
+Es sind noch keine Sessions angelegt. Klicken Sie den grünen Button, um die erste Session zu erstellen
+---STRINGEND
+
+---STRING no workshops helptext
+Es sind noch keine Workshops angelegt. Klicken Sie den grünen Button, um den ersten Workshop zu erstellen
+---STRINGEND
+
+---STRING no closed workshops helptext
+Es wurden noch keine Workshops beendet.
+---STRINGEND
+
+---STRING no results available 
+Es liegen noch keine Ergebnisse vor
+---STRINGEND
+
+---STRING only available while the session is running
+Nur verfügbar, während die Session läuft
+---STRINGEND
+
+---STRING the session is running
+Die Session läuft bereits
+---STRINGEND
+
+---STRING while the session is running, it can not be edited
+Während die Session läuft, kann sie nicht bearbeitet werden
+---STRINGEND
+
+---STRING while the session is running, it can not be deleted
+Während die Session läuft, kann sie nicht gelöscht werden
+---STRINGEND
+
+---STRING closed workshops
+Beendete Workshops
+---STRINGEND
+
+---STRING close the workshop
+Beenden
+---STRINGEND
+
+---STRING please confirm
+Bitte bestätigen
+---STRINGEND
+
+---STRING you want to finish this workshop %s ?
+Sind Sie sich sicher, dass Sie diesen Workshop "%s" beenden möchten?
+---STRINGEND
+
+---STRING yes
+Bestätigen
+---STRINGEND
+
+---STRING no
+Abbrechen
+---STRINGEND
+
+---STRING closed date 
+beendet am:
+---STRINGEND
+
+---STRING there is no connection to websockets
+Es besteht keine Verbindung zu WebSockets
+---STRINGEND
+
+---STRING while the session is running, this workshop can not be finished
+Während die Session läuft, kann diesen Workshop nicht beendet werden
+---STRINGEND
+
+

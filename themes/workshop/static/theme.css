@@ -1,0 +1,78 @@
+.btn {
+	min-width: 7rem;
+}
+
+.jumbotron h4{
+    margin-top:-4%;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.copyright {
+    float: right;
+}
+
+.nav-main.left ul {
+    float: left;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+.nav-main ul li {
+    float: left;
+    margin: 0 12px;
+}
+
+#fullscreen-button {
+    min-width: 3rem;
+}
+
+.editButton {
+	min-width: 3rem;
+}
+
+.deleteButton {
+	min-width: 3rem;
+}
+
+#qrcode-show {
+    display: none;
+}
+
+#qrcode-exit {
+    display: none;
+}
+
+.button-container {
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+}
+#welcome-message {
+    margin-bottom: 4rem;
+}
+
+#qrcode-description {
+    font-size: 20px;
+}
+
+#agenda-text {
+    overflow: auto;
+    max-height: calc(100vh - 9rem);
+}
+
+@media screen and (max-width: 1199px) {
+
+    #qrcode-description {
+	font-size: 18px;
+    }
+}
+
+.login .jumbotron  {
+    margin-top: 3rem;
+    margin-bottom: 3rem;	
+}

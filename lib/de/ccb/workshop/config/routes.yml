@@ -1,0 +1,94 @@
+startpage:
+    path: /
+    defaults: { _controller: 'de_ccb_workshop_handler_startpage::startpage' }
+    
+create_session:
+    path: /show/{guid}/create/
+    defaults: { _controller: 'de_ccb_workshop_handler_session_crud::create' }
+
+create_category:
+    path: /category/create/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_category_crud::create' }
+    
+update_category:
+    path: /category/update/{category_id}/
+    defaults: { _controller: 'de_ccb_workshop_handler_category_crud::update' }
+    
+delete_category:
+    path: /category/delete/{category_id}/
+    defaults: { _controller: 'de_ccb_workshop_handler_category_crud::delete' }
+    
+getCategories:
+    path: /get/category/{session_guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_controller::getCategories' }
+    
+delete_session:
+    path: /show/{guid}/delete/{session_guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_session_crud::delete' }
+    
+update_session:
+    path: /show/{guid}/update/{session_guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_session_crud::update' }
+    
+create_workshop:
+    path: /create/
+    defaults: { _controller: 'de_ccb_workshop_handler_crud::create' }
+
+delete_workshop:
+    path: /delete/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_crud::delete' }
+    
+update_workshop:
+    path: /update/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_crud::update' }
+    
+controller_workshop:
+    path: /controller/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_controller::controller' }
+    
+save_session_data:
+    path: /save/sessiondata/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_controller::sessiondata' }
+    
+presentation:
+    path: /presentation/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_presentation::presentation' }
+                    
+create_account:
+    path: /account/create/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_person_account::create' }    
+    
+edit_account:
+    path: /account/edit/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_person_account::edit' }
+    
+delete_account:
+    path: /account/delete/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_person_account::delete' }    
+    
+account_su:
+    path: /account/su/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_person_account::su' }
+      
+client:
+    path: /client/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_client::client' }
+    
+mail_ajax:
+    path: /mail/ajax/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_controller::sendmail' }
+    
+workshop_result:
+    path: /result/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_workshopResult::workshopResult' }
+    
+workshop_result_pdf:
+    path: /result/pdf/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_workshopResultPDF::workshopResultPDF' }
+    
+archived_workshops:
+    path: /archived/workshops/{guid}/
+    defaults: { _controller: 'de_ccb_workshop_handler_controller::archive_workshop' }
+    
+    
+    

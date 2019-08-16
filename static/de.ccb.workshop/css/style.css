@@ -1,0 +1,186 @@
+#message_output .alert {
+    width: 18rem;
+    display: inline-block;
+    margin: 1rem;
+    transition: opacity .2s;
+    white-space: pre-wrap;
+}
+
+#message_output .alert.fade-in {
+    opacity: 1;
+}
+
+.connectedSortable {
+    background-color: #e9ecef7a;
+    border: solid #ccc 1px;
+    border-radius: .5em;
+}
+
+.connectedSortable .alert {
+    cursor: move;
+}
+
+.sortedMessages {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 400px;
+    width: 22rem;
+    margin: 1rem;
+    box-sizing:border-box;
+    display:inline-block;
+    vertical-align:top;
+    position: relative;
+}
+
+#pdf-button {
+	position: absolute;
+	right: 1px;
+	top: -52px;
+}
+
+.btn:disabled {
+    pointer-events: all !important;
+}
+
+#workshopTitle {
+	position: relative;
+	max-width: calc(100% - 260px);
+}
+
+#workshopsResultsTable {
+	position: relative;
+}
+
+.categoryTitle {
+    text-align: center;
+    margin-top: 11px;
+    font-weight: bold;
+}
+
+#workshopResults {
+	margin-top: 39px;
+}
+
+table th { 
+    padding: 0.5rem 2rem;
+    padding: 0.2em; 
+}
+
+table tr.withCategoriesTitle td {
+    border-top: 1px solid black;
+}
+
+#unsortedCategoryTitle {
+    text-align: center;
+    margin-top: 11px;
+    font-weight: bold;
+}
+
+hr.style1 {
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
+
+.boxclose {
+    position: absolute;
+    right: -.4em;
+    top: -.3em;
+    cursor:pointer;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+}
+
+.boxclose:before {
+    content: "×";
+    color: white;
+}
+
+.text-muted {
+	margin-bottom: 0.5rem;
+}
+
+#stage-welcome {
+	margin-top: 2rem;
+}
+
+#overlay-content {
+	position: relative;
+	top: 25%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.element_form .field_text {
+	display: none;
+}
+
+.element_subform .input a.add-item {
+	background-image: url(/midcom-static/workshop/pics/icons_16x16/list-add.png);
+	background-repeat: no-repeat;
+	color: transparent;
+	background-position: 0px 0px;
+	margin: auto;
+    background-position: center;
+}
+
+.element_subform .input .remove-item {
+    background-image: url(/midcom-static/workshop/pics/icons_16x16/trash.png);
+    background-repeat: no-repeat;
+    color: transparent;
+    background-position: 0px 0px;
+    margin: auto;
+    background-position: center;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 94%;
+}
+
+.element_subform .input .element_text {
+	width: 94%
+}
+
+#loginByUsername {
+	display: block;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+#setUsername {
+	color: black;
+	font-size: 20px;
+	margin-left: 1rem;
+}
+
+.custom-select {
+	margin-bottom: 13px;
+}
+
+#loginName {
+	margin-right: 1rem;
+	color: #495057;
+}
+
+#nav-element {
+	flex-direction: unset;
+}
+
+#log-out {
+	color: #495057;
+}
+
+.nav-item:hover #log-out {
+	color: black;
+}
+
+#session-list li {
+    margin-bottom: .5em;
+}

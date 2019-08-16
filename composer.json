@@ -1,0 +1,42 @@
+{
+	"name" : "CCB/Workshoppy",
+	"description" : "Workshoppy",
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require" : {
+		"openpsa/midcom" : "dev-master",
+		"voryx/thruway" : "^0.5.3",
+		"mpdf/mpdf" : "^8.0"
+	},
+	"config" : {
+		"platform" : {
+			"php" : "7.0.30"
+		}
+	},
+	"scripts": {
+        "post-install-cmd": [
+            "openpsa\\installer\\installer::setup_root_package",
+            "chmod 777 './vendor/mpdf/mpdf/tmp'"
+        ],
+        "post-update-cmd": [
+            "openpsa\\installer\\installer::setup_root_package",
+            "chmod 777 './vendor/mpdf/mpdf/tmp'"
+        ]
+    },
+	"extra" : {
+		"midcom-static-dir" : "midcom-static"
+	},
+	"autoload" : {
+		"classmap" : [
+			"lib"
+		]
+	},
+	"autoload-dev" : {
+		"classmap" : [
+			"test"
+		]
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^5.7"
+	}
+}

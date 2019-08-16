@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schema xmlns="http://www.midgard-project.org/repligard/1.4">
+
+    <type name="de_ccb_workshop_workshop" table="de_ccb_workshop_workshop">
+        <property name="id" type="unsigned integer" primaryfield="id">
+            <description>Local non-replication-safe database identifier</description>
+        </property>
+        
+        <property name="title" type="string"></property>
+        <property name="location" type="string"></property>
+        <property name="company" type="string"></property>
+        <property name="date" type="datetime"></property>
+        <property name="facilitator" type="unsigned integer" link="org_openpsa_person:id"></property>
+        <property name="agenda" type="text"></property>
+        <property name="archived" type="bool" />
+        <property name="closed" type="datetime" />
+    </type>
+    
+    <type name="de_ccb_workshop_session" table="de_ccb_workshop_sessions">
+        <property name="id" type="unsigned integer" primaryfield="id">
+            <description>Local non-replication-safe database identifier</description>
+        </property>
+        
+        <property name="title" type="string"></property>
+        <property name="question" type="string"></property>
+        <property name="data" type="text"></property>
+        <property name="workshop" type="unsigned integer" link="de_ccb_workshop_workshop:id" parentfield="workshop"/>
+    </type>
+    
+    <type name="de_ccb_workshop_category" table="de_ccb_workshop_category">
+        <property name="id" type="unsigned integer" primaryfield="id">
+            <description>Local non-replication-safe database identifier</description>
+        </property>
+        
+        <property name="title" type="string"></property>
+        <property name="session" type="unsigned integer" link="de_ccb_workshop_session:id" parentfield="session"/>
+    </type>
+    
+    
+    <type name="de_ccb_workshop_member" table="de_ccb_workshop_workshop">
+        <property name="id" type="unsigned integer" primaryfield="id">
+            <description>Local non-replication-safe database identifier</description>
+        </property>
+
+        <property name="workshop" type="unsigned integer" link="de_ccb_workshop_workshop:id" ></property>
+        <property name="person" type="unsigned integer" link="org_openpsa_person:id"></property>
+    </type>
+    
+</Schema>
