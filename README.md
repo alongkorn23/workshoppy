@@ -1,2 +1,2 @@
-# workshoppy
-Bachelor-Thesis
+# Workshoppy-Projekt
+Thema der Bachelorarbeit von Herr Alongkorn Kiatmontri
