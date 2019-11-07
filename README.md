@@ -7,14 +7,21 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 ## Funktionsweise der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
-* Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die Hauptseite der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste" werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen"-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops" archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
+* Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die Hauptseite der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste” werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen”-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops” archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
 
 * Jeder Workshop hat seine eigene Controller-Seite.
-  * Das Navigation-Tab „WS-Controller" beinhaltet vier folgende Buttons: 
+  * Das Navigation-Tab „WS-Controller” beinhaltet vier folgende Buttons: 
     * Client-Button: öffnet die Teilnehmer-Seite als neues Browser-Tab. Auf dieser Seite können die Teilnehmer die Dateneingabe tätigen. 
     
     **Anmerkung**: Der Client-Button wird in der zukünftigen Weiterentwicklung entfernt, da der Moderator nicht für die Dateneingabe beteiligt werden darf. Für diese Arbeit wird der Client-Button aufgrund des Funktionstests erstmal erhalten bleiben.
     
-  * Präsentation-Button: öffnet als neues Browser-Fenster die Präsentation-Seite. Mittels Beamer präsentiert sie den Teilnehmern die eingegebenen Daten in Echtzeit.
+    * Präsentation-Button: öffnet als neues Browser-Fenster die Präsentation-Seite. Mittels Beamer präsentiert sie den Teilnehmern die eingegebenen Daten in Echtzeit.
   
-  * Ergebnisse-Button: öffnet ein neues Browser-Tab und ruft die Ergebnisse-Seite auf. Die Zwischenergebnisse des Workshops werden dargestellt. Der Ergebnisse-Button ist erst aktiviert, wenn die Ergebnisse vorhanden sind.
+    * Ergebnisse-Button: öffnet ein neues Browser-Tab und ruft die Ergebnisse-Seite auf. Die Zwischenergebnisse des Workshops werden dargestellt. Der Ergebnisse-Button ist erst aktiviert, wenn die Ergebnisse vorhanden sind.
+  
+    * Beenden-Button: beendet den laufenden Workshop und leitet den Moderator zur Hauptseite weiter. Der Workshop wird anschließend in „Beendete Workshops” archiviert.
+
+  * Die Agenda, falls sie vorhanden ist, wird im Navigation-Tab „Agenda” dargestellt.
+  * Neben dem Einscannen des QR-Codes auf der Präsentation-Seite können die Teilnehmer im Navigation-Tab „Teilnehmer” die Einladung per Mail senden lassen, um am Workshop teilzunehmen.
+  
+  
