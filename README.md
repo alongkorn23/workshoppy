@@ -39,7 +39,12 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 * Um auf die **Teilnehmer-Seite** zu kommen, müssen die Teilnehmer des Workshops den QR-Code, welche auf der Präsentation-Seite (Beamer) zu sehen ist, einscannen oder sie lassen sich per Mail die Einladung zur Teilnahme am Workshop zusenden. Die Teilnehmer-Seite stellt jedem Workshop-Teilnehmer die Dateneingabefunktion zu einer gestarteten Session bereit. Beim Aufrufen der Seite werden die Teilnehmer zunächst aufgefordert, ihren Benutzernamen einzugeben.
 
 * Nach Eingabe Ihres Benutzernamens werden die Teilnehmer auf die Eingabefunktion weitergeleitet. Erst wenn der Moderator eine Session startet, können die Teilnehmer die Dateneingabe tätigen.
-    
+
+* Die **Präsentation-Seite** dient der Darstellung der Dateneingabe von allen Teilnehmern in Echtzeit. Die Seite hat zwei Zustände, nämlich passiv und aktiv.
+
+  * **passiver Zustand**:
+Dieser Zustand bedeutet, dass momentan keine Session läuft. Die Präsentation-Seite zeigt bei diesem Zustand den QR-Code zur Teilnahme am Workshop an. Bevor die Session tatsächlich beginnt, können die Teilnehmer den QR-Code über Ihre Mobilgeräte einscannen, um am Workshop teilzunehmen.
+
 
 
 
