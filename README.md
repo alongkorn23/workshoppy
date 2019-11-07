@@ -7,9 +7,9 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 ## Funktionsweise der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
-* Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die Hauptseite der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste” werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen”-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops” archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
+* Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die **Hauptseite** der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste” werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen”-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops” archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
 
-* Jeder Workshop hat seine eigene Controller-Seite.
+* Jeder Workshop hat seine eigene **Controller-Seite**.
   * Das Navigation-Tab „WS-Controller” beinhaltet vier folgende Buttons: 
     * Client-Button: öffnet die Teilnehmer-Seite als neues Browser-Tab. Auf dieser Seite können die Teilnehmer die Dateneingabe tätigen. 
     
@@ -32,7 +32,13 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
     
     **Anmerkung**: Es gibt zusätzlich noch zwei weiteren Buttons, welche erst sichtbar werden, wenn eine Session gerade läuft. Das ist der „Eingabe beenden”- und Session „Beenden”-Button.
     
+    * Der „Eingabe beenden-Button” stoppt die Eingabe auf der Teilnehmer-Seite. Demzufolge können die Teilnehmer keine weiteren Daten mehr eingeben. Der „Session Beenden-Button” beendet die gerade laufende Session. Auf der Teilnehmer-Seite wird durch den Klick auf dem „Session Beenden-Button” der Infotext „Bitte Warten” angezeigt und gleichzeitig wird der QR-Code zur Teilnahme am Workshop auf der Präsentation-Seite dargestellt.
     
+    * Erst nach dem Beenden der laufenden Session werden alle zuvor deaktivierten Buttons wieder reaktiviert.
+    
+* Um auf die **Teilnehmer-Seite** zu kommen, müssen die Teilnehmer des Workshops den QR-Code, welche auf der Präsentation-Seite (Beamer) zu sehen ist, einscannen oder sie lassen sich per Mail die Einladung zur Teilnahme am Workshop zusenden. Die Teilnehmer-Seite stellt jedem Workshop-Teilnehmer die Dateneingabefunktion zu einer gestarteten Session bereit. Beim Aufrufen der Seite werden die Teilnehmer zunächst aufgefordert, ihren Benutzernamen einzugeben.
+
+* Nach Eingabe Ihres Benutzernamens werden die Teilnehmer auf die Eingabefunktion weitergeleitet. Erst wenn der Moderator eine Session startet, können die Teilnehmer die Dateneingabe tätigen.
     
 
 
