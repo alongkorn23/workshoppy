@@ -7,6 +7,6 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 ## Funktionsweise der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
-- Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die Hauptseite der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste" werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen"-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden.
+- Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die Hauptseite der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste" werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen"-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops" archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
 
-- Die beendeten Workshops werden im Bereich „Beendete Workshops" archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
+- Jeder Workshop hat seine eigene Controller-Seite. Auf dieser sind der Titel des Workshops (Nr.1), die Navigation-Tabs (Nr.2) und die Session-Liste (Nr.3) zu sehen.
