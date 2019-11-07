@@ -23,5 +23,18 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 
   * Die Agenda, falls sie vorhanden ist, wird im Navigation-Tab „Agenda” dargestellt.
   * Neben dem Einscannen des QR-Codes auf der Präsentation-Seite können die Teilnehmer im Navigation-Tab „Teilnehmer” die Einladung per Mail senden lassen, um am Workshop teilzunehmen.
-  
+  * Das Brainstorming wird in der Session-Liste durchgeführt. Zunächst muss der Moderator mit dem „Session-Erstellen-Button” eine neue Session anlegen. 
+  * Die behandelte Frage, die auf der Teilnehmer- und Präsentation-Seite zu sehen sein wird, muss definiert werden. Als Option kann der Titel der Session angegeben werden. Wie viele Sessions in einem Workshop benötigt werden, das entscheidet der Moderator selbst. Er kann unbegrenzt viele Sessions erstellen.
+  * Neben jeder Session sind drei Buttons zu sehen. 
+    * Edit-Button: Mit diesem Button kann die Titel- sowie Fragenänderung durchgeführt werden.
+    * Löschen-Button: Der Löschen-Button löscht die Session inklusive ihrer zugehörigen Daten.
+    * Starten-Button: Es wird erst „gebrainstormt”, wenn die Session gestartet ist. Während die Session läuft, darf sie nicht bearbeitet und gelöscht werden. Alle Buttons von nicht aktiven Sessions werden auch in dieser Phase deaktiviert. Es kann nur eine Session gestartet werden. Außerdem kann der Workshop bei laufender Session nicht beendet werden. Der „Beenden-Button” in WS-Controller wird ebenfalls auch deaktiviert.
+    
+    **Anmerkung**: Es gibt zusätzlich noch zwei weiteren Buttons, welche erst sichtbar werden, wenn eine Session gerade läuft. Das ist der „Eingabe beenden”- und Session „Beenden”-Button.
+    
+    
+    
+
+
+
   
