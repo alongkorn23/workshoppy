@@ -30,7 +30,7 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
   * Neben jeder Session sind drei Buttons zu sehen. 
     * Edit-Button: Mit diesem Button kann die Titel- sowie Fragenänderung durchgeführt werden.
     * Löschen-Button: Der Löschen-Button löscht die Session inklusive ihrer zugehörigen Daten.
-    * Starten-Button: Es wird erst „gebrainstormt”, wenn die Session gestartet ist. Während die Session läuft, darf sie nicht bearbeitet und gelöscht werden. Alle Buttons von nicht aktiven Sessions werden auch in dieser Phase deaktiviert. Es kann nur eine Session gestartet werden. Außerdem kann der Workshop bei laufender Session nicht beendet werden. Der „Beenden-Button” in WS-Controller wird ebenfalls auch deaktiviert.
+    * Starten-Button: Es wird erst **„gebrainstormt”**, wenn die Session gestartet ist. In dieser Session wird versucht, möglichst viele Ideen für ein zuvor klar definiertes Problem zu produzieren. Während die Session läuft, darf sie nicht bearbeitet und gelöscht werden. Alle Buttons von nicht aktiven Sessions werden auch in dieser Phase deaktiviert. Es kann nur eine Session gestartet werden. Außerdem kann der Workshop bei laufender Session nicht beendet werden. Der „Beenden-Button” in WS-Controller wird ebenfalls auch deaktiviert.
     
     **Anmerkung**: Es gibt zusätzlich noch zwei weiteren Buttons, welche erst sichtbar werden, wenn eine Session gerade läuft. Das ist der „Eingabe beenden”- und Session „Beenden”-Button.
     
