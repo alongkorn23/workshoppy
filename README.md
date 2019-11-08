@@ -52,5 +52,8 @@ Die Präsentation-Seite befindet sich im aktiven Zustand, wenn die Session gesta
   
   * Um die angezeigten Daten auf der Präsentation-Seite zusammenfassen zu können, muss die Ideensammlungsphase beendet werden. Dafür klickt der Moderator auf den „Eingabe beenden”-Button auf der **Controller-Seite**. Daraus folgt, dass auf der **Teilnehmer-Seite** die Eingabe gestoppt und stattdessen der Infotext „Bitte Warten” angezeigt wird. Durch den Klick auf den „Eingabe beenden”-Button auf der Controller-Seite wird der „Kategorie erstellen”-Button auf der Präsentation-Seite freigeschaltet, mit dem der Moderator Kategorien erstellen kann.
 
+  * Direkt auf der **Präsentation-Seite** kann der Moderator die Daten per Drag-&-Drop in Kategorien zusammenfassen. Die Kategorien selbst lassen sich nicht verschieben. Das Löschen einer Kategorie erfolgt mit dem Klick auf den X-Button. Es wird nur die Kategorie gelöscht, d.h. die darin befindlichen Daten bleiben auf der Präsentation-Seite erhalten.
+  
+* Mit Klick auf den **Ergebnisse-Button** wird die Ergebnisse-Seite des Workshops als neues Browser-Tab geöffnet. Auf dieser Seite befinden sich die Daten inklusive Kategorien des Workshops. Die Ergebnisse-Seite beinhaltet außerdem einen Button, mit dem die Ergebnisse als eine PDF-Datei heruntergeladen werden können.
 
   
