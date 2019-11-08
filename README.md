@@ -60,7 +60,7 @@ Die Präsentation-Seite befindet sich im aktiven Zustand, wenn die Session gesta
   
 * Mit Klick auf den **Ergebnisse-Button** wird die Ergebnisse-Seite des Workshops als neues Browser-Tab geöffnet. Auf dieser Seite befinden sich die Daten inklusive Kategorien des Workshops. Die Ergebnisse-Seite beinhaltet außerdem einen Button, mit dem die Ergebnisse als eine PDF-Datei heruntergeladen werden können.
 
-## Übersicht zur Konzeption der Webanwendung
+## Zusammenfassung der Konzeption der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
 
