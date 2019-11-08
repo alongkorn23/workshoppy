@@ -4,7 +4,7 @@ Bei diesem Projekt handelt es sich um eine Bachelorarbeit von Herr Alongkorn Kia
 ## Kurzfassung des Projektes
 Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche Workshops in Echtzeit durchgeführt werden können. Dazu werden Workshops angelegt und in einer Datenbank gespeichert. Das Erarbeiten von Ergebnissen erfolgt in einer Sitzung, welche ebenfalls in einer Datenbank gespeichert werden. Mit Hilfe des WebSockets und des Web Application Messaging Protocols soll die Datenübermittlung von mehreren Personen in Echtzeit geprüft werden. Das Hauptaugenmerk dieser Arbeit wird auf die Datenausgabe von mehreren Personen in Echtzeit und die digitale Datenzusammenfassung gelegt. Der Beamer wird dabei als Ausgabemedium verwendet. Außerdem passt sich diese Anwendung automatisch an die Auflösung und Darstellung des jeweiligen Endgerätes (Smartphone, Tablet und PC) an. 
 
-Die Webanwendung ist erreichbar unter **https://wsdemo.ctrl-bln.de** . Der Benutzername und das Passwort werden in meinem Lebenslauf veröffentlicht.
+Die Webanwendung ist erreichbar unter **https://wsdemo.ctrl-bln.de** . Der Benutzername und das Passwort werden zunächst nur in meinem Lebenslauf veröffentlicht. Falls Sie wirklich mit dieser Webanwendung beschäftigen wollen, schreiben Sie mir eine Mail an alongkorn23@googlemail.com, um die Login-Daten anzufordern.
 
 **Vorsicht:** Die Webanwendung wirkt auf den ersten Blick viel zu kompliziert. Aus diesem Grund lesen Sie bitte nebenbei die Anleitung der Webanwendung durch, um die Funktionsweise der Webanwendung zu verstehen.
 
