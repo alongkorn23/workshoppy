@@ -7,10 +7,7 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
 ## Funktionsweise der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
-**Akteure:**
-
-  * Moderator: Er übernimmt die Rolle des Administrators und ist hauptverantwortlich für die Steuerung der Webanwendung.
-  * Teilnehmer: Sie sind nur für die inhaltlichen Beiträge zuständig.
+**Akteure:** Der Moderator übernimmt die Rolle des Administrators und ist hauptverantwortlich für die Steuerung der Webanwendung. Die teilnehmenden Personen sind wiederum nur für die inhaltlichen Beiträge zuständig.
   
 * Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die **Hauptseite** der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste” werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen”-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops” archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
 
