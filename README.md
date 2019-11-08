@@ -4,9 +4,7 @@ Bei diesem Projekt handelt es sich um eine Bachelorarbeit von Herr Alongkorn Kia
 ## Kurzfassung des Projektes
 Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche Workshops in Echtzeit durchgeführt werden können. Dazu werden Workshops angelegt und in einer Datenbank gespeichert. Das Erarbeiten von Ergebnissen erfolgt in einer Sitzung, welche ebenfalls in einer Datenbank gespeichert werden. Mit Hilfe des WebSockets und des Web Application Messaging Protocols soll die Datenübermittlung von mehreren Personen in Echtzeit geprüft werden. Das Hauptaugenmerk dieser Arbeit wird auf die Datenausgabe von mehreren Personen in Echtzeit und die digitale Datenzusammenfassung gelegt. Der Beamer wird dabei als Ausgabemedium verwendet. Außerdem passt sich diese Anwendung automatisch an die Auflösung und Darstellung des jeweiligen Endgerätes (Smartphone, Tablet und PC) an. 
 
-## Funktionsweise der Webanwendung
-![Konzeption der Webanwendung](Anforderung_neu.png)
-
+## Anleitung zum erfolgreichen Durchführen der Webanwendung
 **Akteure:** Der Moderator übernimmt die Rolle des Administrators und ist hauptverantwortlich für die Steuerung der Webanwendung. Die teilnehmenden Personen sind wiederum nur für die inhaltlichen Beiträge zuständig.
   
 * Nach der erfolgreichen Anmeldung wird der Nutzer, der für die Durchführung des Workshops verantwortlich ist, auf die **Hauptseite** der Webanwendung weitergeleitet. Im Bereich „Workshop-Liste” werden die erstellten Workshops aufgelistet. Mit dem „Workshop erstellen”-Button kann ein neuer Workshop erstellt werden. Durch das Anklicken des Edit- sowie Löschen-Buttons kann der einzelne Workshop gezielt bearbeitet und gelöscht werden. Die beendeten Workshops werden im Bereich „Beendete Workshops” archiviert. Der Ergebnisse-Button führt zur der Ergebnisse-Seite des archivierten Workshops.
@@ -57,5 +55,9 @@ Die Präsentation-Seite befindet sich im aktiven Zustand, wenn die Session gesta
   * Direkt auf der **Präsentation-Seite** kann der Moderator die Daten per Drag-&-Drop in Kategorien zusammenfassen. Die Kategorien selbst lassen sich nicht verschieben. Das Löschen einer Kategorie erfolgt mit dem Klick auf den X-Button. Es wird nur die Kategorie gelöscht, d.h. die darin befindlichen Daten bleiben auf der Präsentation-Seite erhalten.
   
 * Mit Klick auf den **Ergebnisse-Button** wird die Ergebnisse-Seite des Workshops als neues Browser-Tab geöffnet. Auf dieser Seite befinden sich die Daten inklusive Kategorien des Workshops. Die Ergebnisse-Seite beinhaltet außerdem einen Button, mit dem die Ergebnisse als eine PDF-Datei heruntergeladen werden können.
+
+##Übersicht zur Konzeption der Webanwendung
+![Konzeption der Webanwendung](Anforderung_neu.png)
+
 
   
