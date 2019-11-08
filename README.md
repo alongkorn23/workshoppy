@@ -45,7 +45,12 @@ Ziel dieser Bachelorarbeit ist es, eine Webanwendung zu entwickeln, über welche
   * **passiver Zustand**:
 Dieser Zustand bedeutet, dass momentan keine Session läuft. Die Präsentation-Seite zeigt bei diesem Zustand den QR-Code zur Teilnahme am Workshop an. Bevor die Session tatsächlich beginnt, können die Teilnehmer den QR-Code über Ihre Mobilgeräte einscannen, um am Workshop teilzunehmen.
 
+  * **aktiver Zustand**:
+Die Präsentation-Seite befindet sich im aktiven Zustand, wenn die Session gestartet ist. Auf der Präsentation-Seite werden die Dateneingaben der Teilnehmer in Echtzeit präsentiert.
 
+  * Die behandelte Frage ist am oberen Inhaltsbereich zu sehen. Die Eingaben der Teilnehmer werden wie ein Notizzettel visualisiert. Ein Notizzettel besteht aus zwei Teilen, dem Namen des Teilnehmers und seine Idee. Am unteren Bereich der Präsentation-Seite befinden sich zwei Buttons. Während die Session läuft, kann der QR-Code des Workshops mit dem Drücken des QR-Code-Buttons angezeigt werden. Der QR-Code kann sowohl im passiven Zustand als auch im aktiven Zustand dargestellt werden. Der Vollbild-Button wandelt die Präsentation-Seite in den Vollbildmodus um. 
+  
+  * Um die angezeigten Daten auf der Präsentation-Seite zusammenfassen zu können, muss die Ideensammlungsphase beendet werden. Dafür klickt der Moderator auf den „Eingabe beenden”-Button auf der **Controller-Seite**. Daraus folgt, dass auf der **Teilnehmer-Seite** die Eingabe gestoppt und stattdessen der Infotext „Bitte Warten” angezeigt wird. Durch den Klick auf den „Eingabe beenden”-Button auf der Controller-Seite wird der „Kategorie erstellen”-Button auf der Präsentation-Seite freigeschaltet, mit dem der Moderator Kategorien erstellen kann.
 
 
   
