@@ -8,6 +8,19 @@ Die Webanwendung ist erreichbar unter **https://wsdemo.ctrl-bln.de** . Der Benut
 
 **Vorsicht:** Die Webanwendung wirkt auf den ersten Blick viel zu kompliziert. Aus diesem Grund lesen Sie bitte nebenbei die Anleitung der Webanwendung durch, um die Funktionsweise der Webanwendung zu verstehen.
 
+## Beispielszenario 
+In diesem Abschnitt wird die Webanwendung anhand eines Beispielszenarios näher beschrieben.
+Man stelle sich folgende Situation vor: Sie führen ein Unternehmen und suchen für ein Problem eine Lösung. Hier
+sind also die Ideen gefragt. Sie laden alle Abteilungsleiter in den Besprechungsraum ein und führen dazu einen
+Workshop, um die Lösungsansätze zu erarbeiten. Beim Erarbeiten von Ergebnissen spielt dabei die hierarchische
+Position im Unternehmen keine Rolle. In einem Workshop ist jeder „gleich“.
+
+Sie übernehmen die Rolle eines Moderators und erläutern den teilnehmenden Personen das zu behandelnde Problem,
+die Regeln sowie das Ziel des Workshops. Als Werkzeug für die Durchführung des Workshops steht Ihnen
+diese Webanwendung zur Verfügung. Bevor Sie mit dem Workshop beginnen, legen Sie bei der Webanwendung einen Workshop und die dazugehörige Session an. In dieser Session findet die Ideenfindungsphase statt. Jeder der im Besprechungsraum anwesenden Teilnehmer scannt den angezeigten QR-Code ein, um an diesem Workshop teilnehmen zu können. Danach kommt jeder dran und gibt auf seinem Endgerät Ideen für die Lösung des Problems ein. Jede eingebrachte Idee wird mittels Beamer in Echtzeit präsentiert. Die Ideenfindungsphase ist vorüber. Sie als Administrator beenden die Eingabephase auf der Webanwendung. Hier dürfen die anwesenden Teilnehmer keine Ideen mehr eingeben. Sie haben jetzt die Aufgabe,
+die gesammelten Ideen gemeinsam mit der Gruppe zu analysieren und anschließend zusammenzufassen. Am Ende
+des Workshops stehen Ihnen die Ergebnisse als digitale Dokumentation zur Verfügung.
+
 ## Anleitung zum erfolgreichen Durchführen der Webanwendung
 **Akteure:** Der Moderator übernimmt die Rolle des Administrators und ist hauptverantwortlich für die Steuerung der Webanwendung. Die teilnehmenden Personen sind wiederum nur für die inhaltlichen Beiträge zuständig.
   
