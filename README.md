@@ -63,5 +63,6 @@ Die Präsentation-Seite befindet sich im aktiven Zustand, wenn die Session gesta
 ## Zusammenfassung der Konzeption der Webanwendung
 ![Konzeption der Webanwendung](Anforderung_neu.png)
 
+Der Moderator ist, wie bereits erwähnt, der Administrator der Webanwendung und ist für die Durchführung des Workshops verantwörtlich. Er legt zunächst einen neuen Workshop und die dazugehörigen Session(s) an. In dieser Session wird versucht, möglichst viele Ideen für ein zuvor klar definiertes Problem zu produzieren. Sobald der Moderator die Session startet, wird auf der Teilnehmer-Seite die Funktion zur Dateneingabe freigeschaltet. Die Präsentation-Seite ist bei einer aktiver Session in der Lage, die Dateneingabe von den Teilnehmern in Echtzeit darzustellen. Die Ideenfindungsphase ist vorüber. Der Moderator beenden die Eingabephase (Eingabe beenden). In dieser Situation wird auf der Teilnehmer-Seite die Funktion zur Dateneingabe blockiert und einen Hinweistext „Bitte Warten“ dargestellt. Die anwesenden Teilnehmer dürfen also keine Ideen mehr eingeben. Der Moderator hat jetzt die Aufgabe, die gesammelten Ideen gemeinsam mit der Gruppe zu analysieren und anschließend in Kategorien zusammenzufassen. 
 
   
